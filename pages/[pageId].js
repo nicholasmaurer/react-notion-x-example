@@ -8,7 +8,7 @@ import { NotionRenderer } from 'react-notion-x'
 const notion = new NotionAPI()
 
 export const getStaticProps = async (context) => {
-  const pageId = context.params.pageId as string
+  const pageId = context.params.pageId.toString();
   const recordMap = await notion.getPage(pageId)
 
   return {
