@@ -20,7 +20,7 @@ export const getStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
-  const rootNotionPageId = '397721efc3cd4f138fe0910d8d27c6e6'
+  const rootNotionPageId = '53e850dbbea741649af7e63e158ec3cf'
   const rootNotionSpaceId = '5d9e7643e04a0b06ed3dae7c4d2e0dae972b19c14daf50e3a111115b2ad360c5f8dadfce7b4d38552a1b5f107525adcb438fc464934e7e3e2e2daf45c1ad6ea542216e951da3ac697eca0369a1ea'
 
   // This crawls all public pages starting from the given root page in order
