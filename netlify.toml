@@ -3,3 +3,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+    from = "/"
+    to = "/53e850dbbea741649af7e63e158ec3cf"
